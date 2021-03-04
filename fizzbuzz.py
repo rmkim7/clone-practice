@@ -1,13 +1,5 @@
 # fizzbuzz.py
 
-for i in range(1, 100+1):
-    if i % 3 == 0:
-        print('fizz')
-    if i % 5 == 0:
-        print('buzz')
-    if i % 15 == 0:
-        print('fizzbuzz')
-    else:    
-        print(i, end='\t')
 
-print('')
+print(['fizzbuzz' if i%15==0 else 'fizz' if i%3==0 else 'buzz' if i%5==0 else i for i in range(1,300+1)])
+
