@@ -1,6 +1,9 @@
 # fizzbuzz.py
 
 for i in range(1, 100+1):
-    print(i, end='\t')
+    if i % 3 == 0:
+        print('fizz')
+    else:    
+        print(i, end='\t')
 
 print('')
