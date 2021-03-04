@@ -1,3 +1,6 @@
 # fizzbuzz.py
 
-print('we are on ssac branch')
+for i in range(1, 100+1):
+    print(i, end='\t')
+
+print('')
